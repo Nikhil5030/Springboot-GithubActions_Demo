@@ -11,7 +11,7 @@ public class SpringBootGithubActionsApplication {
 
 	@GetMapping("/welcome")
 	public String message(){
-		return "Welcome to Github Action CI CD Workflow!!";
+		return "Welcome to Github Actions CI CD Workflow With Docker!!!";
 	}
 
 	public static void main(String[] args) {
